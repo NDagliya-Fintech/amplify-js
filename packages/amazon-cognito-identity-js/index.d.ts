@@ -61,6 +61,7 @@ declare module 'amazon-cognito-identity-js' {
 		Username: string;
 		Pool: CognitoUserPool;
 		Storage?: ICognitoStorage;
+		AppId?: string;
 	}
 
 	export interface GetSessionOptions {
@@ -297,6 +298,7 @@ declare module 'amazon-cognito-identity-js' {
 		endpoint?: string;
 		Storage?: ICognitoStorage;
 		AdvancedSecurityDataCollectionFlag?: boolean;
+		AppId?: string;
 	}
 
 	export class CognitoUserPool {

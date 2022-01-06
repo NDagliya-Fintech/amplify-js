@@ -44,11 +44,15 @@ export default class CognitoUserPool {
 			endpoint,
 			fetchOptions,
 			AdvancedSecurityDataCollectionFlag,
+			AppId,
 		} = data || {};
 		if (!UserPoolId || !ClientId) {
 			throw new Error('Both UserPoolId and ClientId are required.');
 		}
-		if (UserPoolId.length > USER_POOL_ID_MAX_LENGTH || !/^[\w-]+_[0-9a-zA-Z]+$/.test(UserPoolId)) {
+		if (
+			UserPoolId.length > USER_POOL_ID_MAX_LENGTH ||
+			!/^[\w-]+_[0-9a-zA-Z]+$/.test(UserPoolId)
+		) {
 			throw new Error('Invalid UserPoolId format.');
 		}
 		const region = UserPoolId.split('_')[0];
@@ -57,6 +61,8 @@ export default class CognitoUserPool {
 		this.clientId = ClientId;
 
 		this.client = new Client(region, endpoint, fetchOptions);
+
+		this.appId = AppId || 'WEB';
 
 		/**
 		 * By default, AdvancedSecurityDataCollectionFlag is set to true,
@@ -149,7 +155,7 @@ export default class CognitoUserPool {
 	 * @returns {CognitoUser} the user retrieved from storage
 	 */
 	getCurrentUser() {
-		const lastUserKey = `CognitoIdentityServiceProvider.${this.clientId}.LastAuthUser`;
+		const lastUserKey = `${this.appId}.CognitoIdentityServiceProvider.${this.clientId}.LastAuthUser`;
 
 		const lastAuthUser = this.storage.getItem(lastUserKey);
 		if (lastAuthUser) {
@@ -178,15 +184,17 @@ export default class CognitoUserPool {
 			return undefined;
 		}
 		/* eslint-disable */
-		const amazonCognitoAdvancedSecurityDataConst = AmazonCognitoAdvancedSecurityData;
+		const amazonCognitoAdvancedSecurityDataConst =
+			AmazonCognitoAdvancedSecurityData;
 		/* eslint-enable */
 
 		if (this.advancedSecurityDataCollectionFlag) {
-			const advancedSecurityData = amazonCognitoAdvancedSecurityDataConst.getData(
-				username,
-				this.userPoolId,
-				this.clientId
-			);
+			const advancedSecurityData =
+				amazonCognitoAdvancedSecurityDataConst.getData(
+					username,
+					this.userPoolId,
+					this.clientId
+				);
 			if (advancedSecurityData) {
 				const userContextData = {
 					EncodedData: advancedSecurityData,

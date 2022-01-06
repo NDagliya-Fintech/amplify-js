@@ -136,6 +136,7 @@ export default class CognitoUserPool {
 				Username: username,
 				Pool: this,
 				Storage: this.storage,
+				AppId: this.appId,
 			};
 
 			const returnData = {
@@ -163,6 +164,7 @@ export default class CognitoUserPool {
 				Username: lastAuthUser,
 				Pool: this,
 				Storage: this.storage,
+				AppId: this.appId,
 			};
 
 			return new CognitoUser(cognitoUser);

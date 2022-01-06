@@ -41,7 +41,7 @@
   },
   "homepage": "https://aws-amplify.github.io/",
   "dependencies": {
-    "@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
+    "@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
     "@aws-sdk/client-s3": "3.6.1",
     "@aws-sdk/s3-request-presigner": "3.6.1",
     "@aws-sdk/util-create-request": "3.6.1",

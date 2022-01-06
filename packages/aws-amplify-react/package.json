@@ -112,13 +112,13 @@
 		"regenerator-runtime": "^0.11.1"
 	},
 	"peerDependencies": {
-		"@aws-amplify/analytics": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/analytics?main",
-		"@aws-amplify/api": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/api?main",
-		"@aws-amplify/auth": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/auth?main",
-		"@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
-		"@aws-amplify/interactions": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/interactions?main",
-		"@aws-amplify/storage": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/storage?main",
-		"@aws-amplify/ui": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/amplify-ui?main",
-		"@aws-amplify/xr": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/xr?main"
+		"@aws-amplify/analytics": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/analytics/aws-amplify-analytics-5.1.10.tgz",
+		"@aws-amplify/api": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/api/aws-amplify-api-4.0.30.tgz",
+		"@aws-amplify/auth": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/auth/aws-amplify-auth-4.3.20.tgz",
+		"@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
+		"@aws-amplify/interactions": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/interactions/aws-amplify-interactions-4.0.30.tgz",
+		"@aws-amplify/storage": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/storage/aws-amplify-storage-4.4.13.tgz",
+		"@aws-amplify/ui": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/amplify-ui/aws-amplify-ui-2.0.5.tgz",
+		"@aws-amplify/xr": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/xr/aws-amplify-xr-3.0.30.tgz"
 	}
 }

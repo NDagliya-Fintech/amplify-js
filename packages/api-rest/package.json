@@ -41,7 +41,7 @@
   },
   "homepage": "https://aws-amplify.github.io/",
   "dependencies": {
-    "@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
+    "@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
     "axios": "0.21.4"
   },
   "jest": {

@@ -34,8 +34,8 @@
 	},
 	"homepage": "https://aws-amplify.github.io/",
 	"devDependencies": {
-		"@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
-		"@aws-amplify/datastore": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/datastore?main",
+		"@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
+		"@aws-amplify/datastore": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/datastore/aws-amplify-datastore-3.7.4.tgz",
 		"react-native-sqlite-storage": "5.0.0"
 	},
 	"jest": {

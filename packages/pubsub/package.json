@@ -45,9 +45,9 @@
     "cpx": "^1.5.0"
   },
   "dependencies": {
-    "@aws-amplify/auth": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/auth?main",
-    "@aws-amplify/cache": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/cache?main",
-    "@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
+    "@aws-amplify/auth": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/auth/aws-amplify-auth-4.3.20.tgz",
+    "@aws-amplify/cache": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/cache/aws-amplify-cache-4.0.32.tgz",
+    "@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
     "graphql": "15.8.0",
     "paho-mqtt": "^1.1.0",
     "uuid": "^3.2.1",

@@ -44,11 +44,11 @@
     "@types/zen-observable": "^0.8.0"
   },
   "dependencies": {
-    "@aws-amplify/api-rest": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/api-rest?main",
-    "@aws-amplify/auth": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/auth?main",
-    "@aws-amplify/cache": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/cache?main",
-    "@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
-    "@aws-amplify/pubsub": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/pubsub?main",
+    "@aws-amplify/api-rest": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/api-rest/aws-amplify-api-rest-2.0.30.tgz",
+    "@aws-amplify/auth": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/auth/aws-amplify-auth-4.3.20.tgz",
+    "@aws-amplify/cache": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/cache/aws-amplify-cache-4.0.32.tgz",
+    "@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
+    "@aws-amplify/pubsub": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/pubsub/aws-amplify-pubsub-4.2.6.tgz",
     "graphql": "15.8.0",
     "uuid": "^3.2.1",
     "zen-observable-ts": "0.8.19"

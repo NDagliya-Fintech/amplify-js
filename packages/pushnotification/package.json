@@ -46,7 +46,7 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
-    "@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
+    "@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
     "@react-native-community/push-notification-ios": "1.0.3"
   },
   "peerdependencies": {

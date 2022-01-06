@@ -34,19 +34,19 @@
   },
   "homepage": "https://aws-amplify.github.io/",
   "dependencies": {
-    "@aws-amplify/analytics": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/analytics?main",
-    "@aws-amplify/api": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/api?main",
-    "@aws-amplify/auth": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/auth?main",
-    "@aws-amplify/cache": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/cache?main",
-    "@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
-    "@aws-amplify/datastore": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/datastore?main",
-    "@aws-amplify/geo": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/geo?main",
-    "@aws-amplify/interactions": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/interactions?main",
-    "@aws-amplify/predictions": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/predictions?main",
-    "@aws-amplify/pubsub": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/pubsub?main",
-    "@aws-amplify/storage": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/storage?main",
-    "@aws-amplify/ui": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/amplify-ui?main",
-    "@aws-amplify/xr": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/xr?main"
+    "@aws-amplify/analytics": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/analytics/aws-amplify-analytics-5.1.10.tgz",
+    "@aws-amplify/api": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/api/aws-amplify-api-4.0.30.tgz",
+    "@aws-amplify/auth": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/auth/aws-amplify-auth-4.3.20.tgz",
+    "@aws-amplify/cache": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/cache/aws-amplify-cache-4.0.32.tgz",
+    "@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
+    "@aws-amplify/datastore": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/datastore/aws-amplify-datastore-3.7.4.tgz",
+    "@aws-amplify/geo": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/geo/aws-amplify-geo-1.1.12.tgz",
+    "@aws-amplify/interactions": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/interactions/aws-amplify-interactions-4.0.30.tgz",
+    "@aws-amplify/predictions": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/predictions/aws-amplify-predictions-4.0.30.tgz",
+    "@aws-amplify/pubsub": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/pubsub/aws-amplify-pubsub-4.2.6.tgz",
+    "@aws-amplify/storage": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/storage/aws-amplify-storage-4.4.13.tgz",
+    "@aws-amplify/ui": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/amplify-ui/aws-amplify-ui-2.0.5.tgz",
+    "@aws-amplify/xr": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/xr/aws-amplify-xr-3.0.30.tgz"
   },
   "jest": {
     "globals": {

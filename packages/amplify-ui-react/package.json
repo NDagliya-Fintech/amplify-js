@@ -33,7 +33,7 @@
 		"typescript": "^3.3.4000"
 	},
 	"dependencies": {
-		"@aws-amplify/ui-components": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/amplify-ui-components?main"
+		"@aws-amplify/ui-components": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/amplify-ui-components/aws-amplify-ui-components-1.9.10.tgz"
 	},
 	"peerDependencies": {
 		"react": ">= 16.7.0",

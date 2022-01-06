@@ -40,8 +40,8 @@
 	},
 	"homepage": "https://aws-amplify.github.io/",
 	"dependencies": {
-		"@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
-		"@aws-amplify/storage": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/storage?main",
+		"@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
+		"@aws-amplify/storage": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/storage/aws-amplify-storage-4.4.13.tgz",
 		"@aws-sdk/client-comprehend": "3.6.1",
 		"@aws-sdk/client-polly": "3.6.1",
 		"@aws-sdk/client-rekognition": "3.6.1",

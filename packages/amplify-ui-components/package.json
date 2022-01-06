@@ -43,7 +43,7 @@
 		"uuid": "^8.2.0"
 	},
 	"devDependencies": {
-		"@aws-amplify/auth": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/auth?main",
+		"@aws-amplify/auth": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/auth/aws-amplify-auth-4.3.20.tgz",
 		"@stencil/angular-output-target": "^0.0.2",
 		"@stencil/core": "1.15.0",
 		"@stencil/eslint-plugin": "0.2.1",

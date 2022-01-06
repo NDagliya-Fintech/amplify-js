@@ -148,6 +148,7 @@ export class AuthClass {
 			Parser.parseMobilehubConfig(config).Auth,
 			config
 		);
+		conf.appId = config.appId;
 		this._config = conf;
 		const {
 			userPoolId,

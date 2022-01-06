@@ -149,7 +149,7 @@ export class AuthClass {
 			Parser.parseMobilehubConfig(config).Auth,
 			config
 		);
-		if (this.appId) {
+		if (config.appId) {
 			this.appId = config.appId;
 		}
 		this._config = conf;

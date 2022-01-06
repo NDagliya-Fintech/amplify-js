@@ -118,7 +118,7 @@
 		"@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
 		"@aws-amplify/interactions": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/interactions?main",
 		"@aws-amplify/storage": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/storage?main",
-		"@aws-amplify/ui": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/ui?main",
+		"@aws-amplify/ui": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/amplify-ui?main",
 		"@aws-amplify/xr": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/xr?main"
 	}
 }

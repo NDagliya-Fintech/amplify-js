@@ -107,6 +107,7 @@ export class AuthClass {
 	private _storageSync;
 	private oAuthFlowInProgress: boolean = false;
 	private pendingSignIn: ReturnType<AuthClass['signInWithPassword']> | null;
+	private appId: string;
 
 	Credentials = Credentials;
 
@@ -148,7 +149,9 @@ export class AuthClass {
 			Parser.parseMobilehubConfig(config).Auth,
 			config
 		);
-		conf.appId = config.appId;
+		if (this.appId) {
+			this.appId = config.appId;
+		}
 		this._config = conf;
 		const {
 			userPoolId,
@@ -190,7 +193,7 @@ export class AuthClass {
 				UserPoolId: userPoolId,
 				ClientId: userPoolWebClientId,
 				endpoint,
-				AppId: this._config.appId,
+				AppId: this.appId,
 			};
 			userPoolData.Storage = this._storage;
 
@@ -2199,7 +2202,7 @@ export class AuthClass {
 		const userData: ICognitoUserData = {
 			Username: username,
 			Pool: this.userPool,
-			AppId: this._config.appId,
+			AppId: this.appId,
 		};
 		userData.Storage = this._storage;
 

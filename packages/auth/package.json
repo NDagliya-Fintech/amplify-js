@@ -43,7 +43,7 @@
   "dependencies": {
     "@aws-amplify/cache": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/cache/aws-amplify-cache-4.0.32.tgz",
     "@aws-amplify/core": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/core/aws-amplify-core-4.3.12.tgz",
-    "amazon-cognito-identity-js": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/amazon-cognito-identity-js?main",
+    "amazon-cognito-identity-js": "https://github.com/NDagliya-Fintech/amplify-js/raw/main/packages/amazon-cognito-identity-js/amazon-cognito-identity-js-5.2.4.tgz",
     "crypto-js": "^4.1.1"
   },
   "devDependencies": {

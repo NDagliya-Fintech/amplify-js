@@ -32,7 +32,7 @@
 		"dist/"
 	],
 	"dependencies": {
-		"@aws-amplify/ui-components": "1.9.10"
+		"@aws-amplify/ui-components": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/amplify-ui-components?main"
 	},
 	"devDependencies": {
 		"@angular/compiler-cli": "^7.2.1",

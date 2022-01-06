@@ -48,11 +48,11 @@
 		"fake-indexeddb": "3.0.0"
 	},
 	"dependencies": {
-		"@aws-amplify/api": "4.0.30",
-		"@aws-amplify/auth": "4.3.20",
-		"@aws-amplify/core": "4.3.12",
-		"@aws-amplify/pubsub": "4.2.6",
-		"amazon-cognito-identity-js": "5.2.4",
+		"@aws-amplify/api": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/api?main",
+		"@aws-amplify/auth": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/auth?main",
+		"@aws-amplify/core": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/core?main",
+		"@aws-amplify/pubsub": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/pubsub?main",
+		"amazon-cognito-identity-js": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/amazon-cognito-identity-js?main",
 		"idb": "5.0.6",
 		"immer": "9.0.6",
 		"ulid": "2.3.0",

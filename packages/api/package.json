@@ -51,8 +51,8 @@
 		"@types/zen-observable": "^0.8.0"
 	},
 	"dependencies": {
-		"@aws-amplify/api-graphql": "2.2.19",
-		"@aws-amplify/api-rest": "2.0.30"
+		"@aws-amplify/api-graphql": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/api-graphql?main",
+		"@aws-amplify/api-rest": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/api-rest?main"
 	},
 	"jest": {
 		"globals": {

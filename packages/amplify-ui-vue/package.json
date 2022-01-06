@@ -18,7 +18,7 @@
 		"url": "https://github.com/aws-amplify/amplify-js.git"
 	},
 	"dependencies": {
-		"@aws-amplify/ui-components": "1.9.10"
+		"@aws-amplify/ui-components": "https://gitpkg.now.sh/NDagliya-Fintech/amplify-js/packages/amplify-ui-components?main"
 	},
 	"devDependencies": {
 		"rimraf": "^3.0.2"
